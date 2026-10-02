@@ -5,6 +5,7 @@ Click here to login and browse the catalog: [Clickable Text] (https://jb-project
 
 ## Frontend
 HTML & CSS: Provides the structure and styling of the website, allowing for a glassmorphic style for many of the components within the catalog
+
 JavaScript: Supports real-time form validation when the user registers a new account and password, allowing for responsive feedback
 
 ## Backend
