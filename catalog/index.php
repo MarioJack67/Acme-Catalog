@@ -15,6 +15,7 @@
 		define('PASS', 'bem8p2DmdWaJ');
 		define('DB', 'f0_42588468_catalog');
 	}
+	//Salt and hash password using sha512
 	function catalogHash($password)
 	{
 		$salt1 = 'ieugoiaheogu493tu09u';
@@ -29,6 +30,7 @@
 		$connect = mysqli_connect(HOST, USER, PASS, DB);
 		return $connect;
 	}
+	//Creates navigation across all the pages
 	function createNavigation($isGranted)
 	{
 		if($isGranted)
@@ -51,6 +53,7 @@
 			return $nav;
 		}
 	}
+	//Create login form and validate for errors
 	function createLoginForm($isError)
 	{
 		$form = '<div class="'.($isError ? "login-box-error":"login-box").'"><h1 class="login-title">Welcome To Acme Catalog!</h1>';
@@ -65,6 +68,7 @@
 		$form .= '</div>';
 		return $form;
 	}
+	//connect to the database and validate the user info
 	function validateLoginData($user, $pass)
 	{
 		$pass = catalogHash($pass);
