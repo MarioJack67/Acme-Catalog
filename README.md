@@ -1,7 +1,7 @@
 # Acme-Catalog
 A simple E-Commerce website where customers can browse wonderful products from the world of Looney Toons! This is a full stack application that incorporates HTML, CSS, JavaScript, PHP, and MariaDB. It is currently deployed and operating on my remote server which can be accessed using the link below. The project incorporates login/registration validation using encryption and salting, session identity, a full table catalog, unique pictures and descriptions for each item, and a simplistic checkout feature. Please enjoy!
 
-Click here to login and browse the catalog: [Clickable Text] (https://jb-projects.freehosting.dev/catalog/)
+Click here to login and browse the catalog: https://jb-projects.freehosting.dev/catalog/
 
 ## Frontend
 HTML & CSS: Provides the structure and styling of the website, allowing for a glassmorphic style for many of the components within the catalog
