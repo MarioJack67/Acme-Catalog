@@ -3,12 +3,12 @@ A simple E-Commerce website where customers can browse wonderful products from t
 
 Click here to login and browse the catalog: [Clickable Text] (https://jb-projects.freehosting.dev/catalog/)
 
-##Frontend
+## Frontend
 HTML & CSS: Provides the structure and styling of the website, allowing for a glassmorphic style for many of the components within the catalog
 JavaScript: Supports real-time form validation when the user registers a new account and password, allowing for responsive feedback
 
-##Backend
+## Backend
 PHP: The main controller logic of the website. Acts as a seamless bridge between the database and views like the catalog and details pages. Keeps track of sessions and cookies to allow the user to remain logged in, even if they close their browser. It also provides SHA-512 encryption and salting to user passwords before storing them in the database
 
-##Database
+## Database
 MariaDB: The primary database for this application. It stores user account information that is securely encrypted, as well as product details to be fetched and rendered on the subsequent webpages. It also contain product images for each item that incorporated into the catalog. Accessed via PhpMyAdmin and sqlconnection()
